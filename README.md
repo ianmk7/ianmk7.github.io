@@ -1,5 +1,5 @@
 # Ian Muchiri Portfolio Website
-# ![Your Name](https://your-image-url.com/photo.jpg)
+# ![Ian Kung'u](https://your-image-url.com/photo.jpg)
 
 # Ian Kung'u
 
@@ -12,15 +12,15 @@
 ## 🏠 Home
 
 Welcome to my professional portfolio!  
-I am a passionate cybersecurity student and aspiring penetration tester with a keen interest in ethical hacking, threat intelligence, and digital forensics. This portfolio showcases my resume, personal projects, and solutions to real-world lab challenges.
+I am a passionate cybersecurity student with a with a keen interest in ethical hacking,threat intelligence,networking and cloud infrastrutcture. This portfolio showcases my resume and solutions to real-world lab challenges.
 
 ---
 
 ## 📄 Resume
 
 ### 🎓 Academic Background
-- **BSc. Computer Science**, [Your University], [Year]
-- **Cybersecurity Training Program**, [Moringa School], [Feb 2024-Nov 2024]
+- **Microsoft ADC Cybersecurity Skilling Program**, [Cyber Shujaa], [April 2025 - Present]
+- **Cybersecurity Training Program**, [Moringa School], [Feb 2024 - Nov 2024]
 
 ### 💼 Work Experience
 - **IT Support Specialist Intern**, Oasis Outsourcing — *Feb 2025 – Present*
@@ -31,73 +31,98 @@ I am a passionate cybersecurity student and aspiring penetration tester with a k
 - Microsoft Certified: Security, Infrastructure and Identity Fundamentals (May 2025)
 
 ### 🧠 Skills
-- **Languages:** Python, Bash, HTML/CSS
-- **Tools:** Nmap, Wireshark, Burp Suite, Metasploit, Autopsy
-- **Soft Skills:** Team collaboration, analytical thinking, report writing
+- **Tools:** Nmap, Wireshark, Port Swigger
+- **Soft Skills:**
+- **Team collaboration** – I have actively participated in discussions with my fellow course mates in assignments, class projects and labs on platforms like Port      Swigger and CompTIA course content.
+- **Adaptability** – I have adjusted myself to situations as they are by spending more time on the task at hand or working outside of regular hours.
+- **Communication** – to keep ourselves updated on tasks to be completed or events that are happening I have used platforms like Mattermost, WhatsApp and Email.
+- **Leadership** – I have led discussions in labs and revision sessions with my fellow course mates on the CompTIA course content.
 
 ---
 
-## 💻 Projects
 
-### 🔐 Web Vulnerability Scanner (Python)
-**Description:** A custom tool to scan for common web vulnerabilities.  
-**Technologies:** Python, Requests, BeautifulSoup  
-**GitHub:** [View on GitHub](https://github.com/yourusername/web-vuln-scanner)
+## 🧪 Lab Challenges and Writeups/Blog
 
----
+### 🧱 Pyramid of Pain – TryHackMe
 
-### 🧠 Malware Analysis on Windows
-**Description:** Reversed and analyzed a Windows malware sample.  
-**Technologies:** PEStudio, Process Hacker, Wireshark  
-**Writeup:** [Read More](https://yourusername.github.io/malware-analysis)
+**Room Difficulty:** Easy
+**Focus:** Threat Intelligence, Detection Engineering
 
----
+**🔍 Summary:**
+This room explores the *Pyramid of Pain* concept, which illustrates how difficult it is for adversaries to change different types of Indicators of Compromise (IOCs). The lab emphasizes the importance of focusing on high-value indicators like TTPs (Tactics, Techniques, and Procedures) instead of easily modified ones like hashes or IPs.
 
-### 🌐 Personal Cyber Blog Website
-**Description:** A static blog for writing security writeups and CTFs.  
-**Technologies:** HTML, Markdown, GitHub Pages  
-**GitHub:** [View Repo](https://github.com/yourusername/cyber-blog)
+**🛠 Techniques Explored:**
 
----
+* Hashes vs TTPs in detection
+* MITRE ATT\&CK usage
+* Strategic threat hunting using behavioral indicators
 
-## 🧪 Lab Challenges
+**📌 Key Takeaways:**
 
-### 🕵️‍♂️ Challenge 1: TryHackMe - “Pyramid of Pain
-**Problem Statement:** Deploy the static site attached to this task and place the prompts into the correct tiers in the pyramid of pain.
-- **Approach:** Theory definitions of each tier
-- **Screenshots:**  
-  - <img width="1620" height="824" alt="Screenshot 2025-05-02 091235" src="https://github.com/user-attachments/assets/2c05993e-490d-4c47-88e8-89d956b390b9" />
-- **Lessons Learned:** What can you do or what detection rules and approach can I create to detect the adversary's activity?, and where does this activity/detection fall on the Pyramid of Pain?
+* Detection should focus on behaviors, not artifacts.
+* The higher you go on the pyramid, the more disruptive your detection is to the attacker.
+* Prioritizing TTPs enhances long-term defense capabilities.
 
 ---
 
-### 🔍 Challenge 2: Room - “Phishing Emails in Action” (TryHackMe)
+### 🎣 Phishing Emails in Action – TryHackMe
 
-- **Problem Statement:** Interacting with real various phishing samples and understanding the techniques used.
-- **Approach:** Observing file metadata, typosquating and impersonation attempts.
-- **Screenshots:**  
-  ![Screenshot](https://your-image-url.com/ctf2.png)
-- **Lessons Learned:** Some of the samples shared similar techniques whereas, others intriduced a new tactic for you to see and learn from.
+**Room Difficulty:** Easy
+**Focus:** Email Security, Threat Analysis
+
+**🔍 Summary:**
+This room walks through a hands-on case of a phishing attack. You analyze an email's header, body, and attachments to identify signs of compromise, and simulate the process a SOC analyst might go through to report and block such an attempt.
+
+**🔧 Tools Used:**
+
+* VirusTotal
+* MxToolbox
+* CyberChef
+* Email header analyzers
+
+**📌 Key Takeaways:**
+
+* Always inspect email headers for authentication (SPF, DKIM, DMARC) failures.
+* Malicious emails often impersonate trusted brands or IT departments.
+* Sandbox and static analysis are essential for safe malware inspection.
 
 ---
 
-### 📁 Challenge 3: Red Team Threat Intel 
+### 🔴 Red Team Threat Intel – TryHackMe
 
-- **Problem Statement:** Apply threat intelligence to red team enagagements and adversary emulation.
-- **Approach:** Image analysis and carving using forensic tools.
-- **Tools Used:** FTK Imager, Autopsy
-- **Lessons Learned:** When planning an engagement it is essential to note the significance of adversary emulatiobn and how threat intelligence can aid you identifying adversaries and their behaviors. Moreover, its important to look at scenarios from all perspectives: offensive, defensive and adversary's.
+**Room Difficulty:** Medium
+**Focus:** Adversary Emulation, Threat Actor Profiling
+
+**🔍 Summary:**
+This room focuses on using publicly available threat intelligence to replicate adversary behaviors during red team engagements. You'll learn to build campaigns modeled after real-world groups using frameworks like MITRE ATT\&CK.
+
+**🧰 Techniques Explored:**
+
+* ATT\&CK Navigator for tactic mapping
+* Using OSINT to gather threat actor data
+* Mapping APT group behaviors to attack simulations
+
+**📌 Key Takeaways:**
+
+* Red teaming is most effective when based on real threat intelligence.
+* Understanding adversary TTPs helps craft more realistic engagements.
+* The MITRE ATT\&CK framework is a central tool for both offense and defense.
 
 ---
+
+
 
 ## 📬 Contact
 
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)  
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- 💻 GitHub: [github.com/yourusername](https://github.com/yourusername)  
-- 📞 Phone: +254-700-000000
+- 📧 Email: [your.email@example.com](ianthegreat254@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/ian-kungu-b67535322/)  
+- 💻 GitHub: [github.com/yourusername](https://ianmk7.github.io/)
+- 🛜 Instagram: 
+
+- 📞 Phone: +254-110-606878
 
 ---
+
 
 ## 📷 Submission Screenshots
 
