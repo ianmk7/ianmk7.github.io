@@ -117,8 +117,7 @@ This room focuses on using publicly available threat intelligence to replicate a
 - 📧 Email: [your.email@example.com](ianthegreat254@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/ian-kungu-b67535322/)  
 - 💻 GitHub: [github.com/yourusername](https://ianmk7.github.io/)
-- 🛜 Instagram: 
-
+- 🛜 Instagram: https://www.instagram.com/_ixnnn/
 - 📞 Phone: +254-110-606878
 
 ---
