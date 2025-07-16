@@ -123,24 +123,6 @@ This room focuses on using publicly available threat intelligence to replicate a
 ---
 
 
-## 📷 Submission Screenshots
-
-*Take and insert screenshots of the following sections after hosting:*
-
-1. **Home Page**  
-   ![Home Screenshot](https://your-upload-url.com/home.png)
-
-2. **Resume Section**  
-   ![Resume Screenshot](https://your-upload-url.com/resume.png)
-
-3. **Projects Section**  
-   ![Projects Screenshot](https://your-upload-url.com/projects.png)
-
-4. **Lab Challenges Section**  
-   ![Lab Screenshot](https://your-upload-url.com/labs.png)
-
-5. **Contact Section**  
-   ![Contact Screenshot](https://your-upload-url.com/contact.png)
 
 ---
 
