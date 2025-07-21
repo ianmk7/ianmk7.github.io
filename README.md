@@ -1,5 +1,5 @@
 # Ian Muchiri Portfolio Website
-# ![Ian Kung'u](https://your-image-url.com/photo.jpg)
+# ![Ian Kung'u](https://github.com/ianmk7/ianmk7.github.io/blob/master/ian.jpg?raw=true)
 
 # Ian Kung'u
 
