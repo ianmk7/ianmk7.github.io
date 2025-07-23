@@ -5,3 +5,10 @@
 layout: home
 author_profile: true
 ---
+---
+layout: page
+title: Home
+permalink: /
+---
+
+{{ site.readme_content }}
