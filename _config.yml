@@ -49,22 +49,12 @@ include:
 #   - vendor/ruby/
 
 # Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
 
 author:
   name : "Ian Kung'u"
   avatar : "/assets/images/bio-ian.jpg"
-  bio    : "I am an aspiring Cybersecurity Professional"
+  bio    : "I am an aspiring Cybersecurity Professional with a keen interest interest in ethical hacking, threat intelligence, networking and cloud infrastructure."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "LinkedIn"
       icon: "fas-fa-fw fa-link"
       url: "https://www.linkedin.com/in/ian-kungu-b67535322/"
@@ -113,3 +103,24 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+## 📄 Resume
+
+### 🎓 Academic Background
+- **Microsoft ADC Cybersecurity Skilling Program**, [Cyber Shujaa], [April 2025 - Present]
+- **Cybersecurity Training Program**, [Moringa School], [Feb 2024 - Nov 2024]
+
+### 💼 Work Experience
+- **IT Support Specialist Intern**, Oasis Outsourcing — *Feb 2025 – Present*
+  - Assisting in hardware and software configurations
+
+### 📜 Certifications
+- CompTIA Security+ (In Progress)
+- Microsoft Certified: Security, Infrastructure and Identity Fundamentals (May 2025)
+
+### 🧠 Skills
+- **Tools:** Nmap, Wireshark, Port Swigger
+- **Soft Skills:**
+- **Team collaboration** – I have actively participated in discussions with my fellow course mates in assignments, class projects and labs on platforms like Port      Swigger and CompTIA course content.
+- **Adaptability** – I have adjusted myself to situations as they are by spending more time on the task at hand or working outside of regular hours.
+- **Communication** – to keep ourselves updated on tasks to be completed or events that are happening I have used platforms like Mattermost, WhatsApp and Email.
+- **Leadership** – I have led discussions in labs and revision sessions with my fellow course mates on the CompTIA course content.
