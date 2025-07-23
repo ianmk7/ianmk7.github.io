@@ -78,32 +78,8 @@ footer:
       url: "https://www.instagram.com/_ixnnn?igsh=MW0yYTZtZ2I0cjA4NQ=="
 
 defaults:
- 
-
   - resume_archive:
-      path: /resume/
-       ## 📄 Resume
-
-### 🎓 Academic Background
-- **Microsoft ADC Cybersecurity Skilling Program**, [Cyber Shujaa], [April 2025 - Present]
-- **Cybersecurity Training Program**, [Moringa School], [Feb 2024 - Nov 2024]
-
-### 💼 Work Experience
-- **IT Support Specialist Intern**, Oasis Outsourcing — *Feb 2025 – Present*
-  - Assisting in hardware and software configurations
-
-### 📜 Certifications
-- CompTIA Security+ (In Progress)
-- Microsoft Certified: Security, Infrastructure and Identity Fundamentals (May 2025)
-
-### 🧠 Skills
-- **Tools:** Nmap, Wireshark, Port Swigger
-- **Soft Skills:**
-- **Team collaboration** – I have actively participated in discussions with my fellow course mates in assignments, class projects and labs on platforms like Port      Swigger and CompTIA course content.
-- **Adaptability** – I have adjusted myself to situations as they are by spending more time on the task at hand or working outside of regular hours.
-- **Communication** – to keep ourselves updated on tasks to be completed or events that are happening I have used platforms like Mattermost, WhatsApp and Email.
-- **Leadership** – I have led discussions in labs and revision sessions with my fellow course mates on the CompTIA course content.
-
+      path: /posts/
       type: scope
     values:
       layout: single
@@ -126,3 +102,18 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  readme_content: |
+  ## Welcome to My Portfolio 🚀
+
+  Hello! I'm Ian Kung'u, a cybersecurity enthusiast and analyst passionate about digital forensics, ethical hacking, and threat hunting.
+
+  ### 🔐 Featured TryHackMe Writeups
+  - [Pyramid of Pain](writeups/pyramid-of-pain)
+  - [Phishing Emails in Action](writeups/phishing-emails)
+  - [Red Team Threat Intel](writeups/red-team-threat-intel)
+
+
+  ### 📫 Contact
+  - [GitHub](https://github.com/ianmk7)
+  - [LinkedIn](https://linkedin.com/in/ianmk7)
+
