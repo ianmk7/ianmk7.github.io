@@ -99,6 +99,20 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
+  ## 📄 Resume
+
+### 🎓 Academic Background
+- **Microsoft ADC Cybersecurity Skilling Program**, [Cyber Shujaa], [April 2025 - Present]
+- **Cybersecurity Training Program**, [Moringa School], [Feb 2024 - Nov 2024]
+
+### 💼 Work Experience
+- **IT Support Specialist Intern**, Oasis Outsourcing — *Feb 2025 – Present*
+  - Assisting in hardware and software configurations
+
+### 📜 Certifications
+- CompTIA Security+ (In Progress)
+- Microsoft Certified: Security, Infrastructure and Identity Fundamentals (May 2025)
+
 tag_archive:
   type: liquid
   path: /tags/
